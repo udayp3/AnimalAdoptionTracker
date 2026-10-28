@@ -1,0 +1,81 @@
+{
+  "name": "AnimalAdoptionTracker",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/hana": "^2.8.3",
+    "@sap/cds": "^9",
+    "@sap/xsenv": "^6.2.2",
+    "@sap/xssec": "^4.15.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9",
+    "cds-plugin-ui5": "^0.17.0",
+    "mbt": "^1.2.49"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-adminanimals": "cds watch --open animaltracker.admin.adminanimals/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-adminshelters": "cds watch --open sheltertracker.admin.adminshelters/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-adminhealth": "cds watch --open healthrecord.admin.adminhealth/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-adminapplications": "cds watch --open adminapplications.adminapplications/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-adminadoptions": "cds watch --open adminadoptions.admin.adminadoptions/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-admininspections": "cds watch --open admininspections.admin.admininspections/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-adminusers": "cds watch --open adminusers.admin.adminusers/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-animalbrowser": "cds watch --open animaltracker.user.animalbrowser/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-myapplications": "cds watch --open myapplications.user.myapplications/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-myadoptions": "cds watch --open myadoptions.user.myadoptions/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-myprofile": "cds watch --open myprofile.user.myprofile/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/adminanimals",
+    "app/adminshelters",
+    "app/adminhealth",
+    "app/adminapplications",
+    "app/adminapplications",
+    "app/adminadoptions",
+    "app/admininspections",
+    "app/adminusers",
+    "app/animalbrowser",
+    "app/myapplications",
+    "app/myadoptions",
+    "app/myprofile",
+    "app/myapplications"
+  ],
+  "cds": {
+    "requires": {
+      "auth": {
+        "[development]": {
+          "kind": "mocked",
+          "users": {
+            "admin@example.com": {
+              "password": "any",
+              "roles": [
+                "Admin"
+              ]
+            },
+            "raj@example.com": {
+              "password": "any",
+              "roles": [
+                "Adopter"
+              ]
+            },
+            "ramesh@gmail.com": {
+              "password": "any",
+              "roles": [
+                "Adopter"
+              ]
+            }
+          }
+        },
+        "[production]": {
+          "kind": "xsuaa"
+        }
+      }
+    }
+  }
+}

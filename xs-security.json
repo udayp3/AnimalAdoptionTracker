@@ -1,0 +1,31 @@
+{
+  "xsappname": "animal-adoption-tracker",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Admin Access"
+    },
+    {
+      "name": "$XSAPPNAME.Adopter",
+      "description": "Adopter Access"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Admin",
+      "description": "Administrator Role",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    },
+    {
+      "name": "Adopter",
+      "description": "Adopter Role",
+      "scope-references": [
+        "$XSAPPNAME.Adopter"
+      ]
+    }
+  ]
+}
+

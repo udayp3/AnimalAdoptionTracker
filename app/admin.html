@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#dfe6f7; --dot:#c4cfe9; --ink:#1b2440;
+  --indigo:#26324f; --mint:#9be3c6; --butter:#ffd25e; --tang:#ff8a4c; --paper:#fffaf2; --peri:#b8c4f0;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; color:var(--ink);
+  font-family:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;
+  background:var(--bg);
+  background-image:radial-gradient(var(--dot) 2px, transparent 2.5px);
+  background-size:28px 28px;
+  padding:40px 20px 64px; overflow-x:hidden;
+}
+.wrap{max-width:1000px;margin:0 auto}
+
+.back{
+  display:inline-block;margin-bottom:28px;font-weight:600;color:var(--ink);
+  text-decoration:none;border-bottom:2px solid var(--ink);padding-bottom:2px;
+}
+.back:focus-visible{outline:3px solid var(--indigo);outline-offset:4px}
+
+h1{
+  margin:0; font-weight:800; letter-spacing:-.04em; line-height:.95;
+  font-size:clamp(2.6rem,8vw,5rem);
+}
+.intro p{margin:16px 0 0;font-size:1.15rem;line-height:1.5;max-width:44ch}
+
+.board{position:relative;margin-top:48px;padding-top:6px}
+.rail{position:absolute;left:0;right:0;top:0;height:14px;border-radius:7px;background:var(--ink)}
+.rail::before,.rail::after{content:"";position:absolute;top:3px;width:8px;height:8px;border-radius:50%;background:var(--bg)}
+.rail::before{left:14px}.rail::after{right:14px}
+
+.tags{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+
+.hang{
+  position:relative;transform-origin:50% 0;
+  transform:rotate(var(--tilt));
+  animation:swing 2.2s ease-out 1 both;
+}
+.hang:nth-child(1){--tilt:-2deg}
+.hang:nth-child(2){--tilt:1.5deg;animation-delay:.1s}
+.hang:nth-child(3){--tilt:-1.2deg;animation-delay:.2s}
+.board:nth-of-type(2) .hang{animation-delay:.35s}
+.board:nth-of-type(2) .hang:nth-child(2){animation-delay:.45s}
+.board:nth-of-type(2) .hang:nth-child(3){animation-delay:.55s}
+.board:nth-of-type(2) .hang:nth-child(1){--tilt:1.8deg}
+.board:nth-of-type(2) .hang:nth-child(2){--tilt:-1.6deg}
+.board:nth-of-type(2) .hang:nth-child(3){--tilt:2deg}
+@keyframes swing{
+  0%{transform:rotate(calc(var(--tilt) + 8deg))}
+  25%{transform:rotate(calc(var(--tilt) - 5deg))}
+  50%{transform:rotate(calc(var(--tilt) + 2.5deg))}
+  75%{transform:rotate(calc(var(--tilt) - 1deg))}
+  100%{transform:rotate(var(--tilt))}
+}
+.cord{position:absolute;left:50%;top:14px;width:4px;height:66px;margin-left:-2px;background:var(--ink);z-index:2;border-radius:2px}
+
+.tag{
+  position:relative;margin-top:50px;border-radius:28px 28px 22px 22px;
+  padding:72px 24px 24px;min-height:270px;display:flex;flex-direction:column;
+  box-shadow:0 12px 0 rgba(27,36,64,.12);color:var(--ink);
+}
+.tag::before{
+  content:"";position:absolute;top:16px;left:50%;width:26px;height:26px;margin-left:-13px;
+  border-radius:50%;background:var(--bg);box-shadow:inset 0 0 0 4px rgba(0,0,0,.18);
+}
+.tag::after{
+  content:"";position:absolute;inset:10px;border-radius:20px 20px 14px 14px;
+  border:2px dashed currentColor;opacity:.35;pointer-events:none;
+}
+.c1{background:var(--indigo);color:var(--paper)}
+.c2{background:var(--mint)}
+.c3{background:var(--paper)}
+.c4{background:var(--butter)}
+.c5{background:var(--peri)}
+.c6{background:var(--indigo);color:var(--paper)}
+
+.tag h2{margin:0 0 8px;font-size:1.6rem;font-weight:800;letter-spacing:-.03em;line-height:1.05}
+.tag p{margin:0 0 auto;line-height:1.4;font-size:.95rem}
+
+.btn{
+  margin-top:24px;display:block;text-align:center;text-decoration:none;
+  font:inherit;font-weight:800;padding:12px 14px;border-radius:14px;
+  border:3px solid currentColor;color:inherit;
+  transition:transform .15s ease, background .15s ease, color .15s ease;
+}
+.btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink);transform:translateY(-2px)}
+.c1 .btn:hover,.c6 .btn:hover{background:var(--mint);color:var(--indigo);border-color:var(--mint)}
+.btn:focus-visible{outline:3px solid var(--tang);outline-offset:3px}
+
+@media (max-width:860px){
+  .tags{grid-template-columns:repeat(2,1fr);gap:20px}
+  .tags .hang:nth-child(3){grid-column:1 / -1;max-width:50%;justify-self:center}
+}
+@media (max-width:560px){
+  .tags{grid-template-columns:1fr;max-width:340px;margin:0 auto}
+  .tags .hang:nth-child(3){max-width:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .hang{animation:none}
+  .btn{transition:none}.btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <a class="back" href="index.html">Back to home</a>
+
+  <section class="intro">
+    <h1>Admin Portal</h1>
+    <p>Manage animals, applications, adoptions, health and the people behind them.</p>
+  </section>
+
+  <section class="board" aria-label="Animals and adoption workflow">
+    <div class="rail" aria-hidden="true"></div>
+    <div class="tags">
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c1">
+          <h2>Animals</h2>
+          <p>Add, edit and review every animal in the shelter.</p>
+          <a class="btn" href="/animaltracker.admin.adminanimals/index.html">Open</a>
+        </article>
+      </div>
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c2">
+          <h2>Applications</h2>
+          <p>Review adoption requests and decide on each one.</p>
+          <a class="btn" href="/adminapplications.adminapplications/index.html">Open</a>
+        </article>
+      </div>
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c3">
+          <h2>Adoptions</h2>
+          <p>Track completed adoptions and the animals' new homes.</p>
+          <a class="btn" href="/adminadoptions.admin.adminadoptions/index.html">Open</a>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="board" aria-label="Care and people">
+    <div class="rail" aria-hidden="true"></div>
+    <div class="tags">
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c4">
+          <h2>Health Records</h2>
+          <p>Keep vaccinations, treatments and checkups up to date.</p>
+          <a class="btn" href="/healthrecord.admin.adminhealth/index.html">Open</a>
+        </article>
+      </div>
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c5">
+          <h2>Inspections</h2>
+          <p>Record and follow up on home and shelter inspections.</p>
+          <a class="btn" href="/admininspections.admin.admininspections/index.html">Open</a>
+        </article>
+      </div>
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag c6">
+          <h2>Users</h2>
+          <p>Manage adopters and staff accounts.</p>
+          <a class="btn" href="/adminusers.admin.adminusers/index.html">Open</a>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

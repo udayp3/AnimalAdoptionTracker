@@ -1,0 +1,11 @@
+ID,name,species,breed,gender,age,color,arrivalDate,healthStatus,vaccinationStatus,adoptionStatus,adoptionFee,description,shelter_ID
+10000000-0000-0000-0000-000000000001,Tommy,Dog,Labrador,Male,3,Golden,2026-01-15,Healthy,Vaccinated,Available,5000,Friendly Labrador looking for a home,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+10000000-0000-0000-0000-000000000002,Bella,Dog,Beagle,Female,2,Brown,2026-02-10,Healthy,Vaccinated,Available,4500,Playful and energetic dog,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+10000000-0000-0000-0000-000000000003,Oscar,Cat,Persian,Male,4,White,2026-03-05,Healthy,Vaccinated,Available,3500,Gentle Persian cat,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb
+10000000-0000-0000-0000-000000000004,Luna,Cat,Siamese,Female,1,Cream,2026-04-12,Healthy,Partially Vaccinated,Available,3000,Young Siamese kitten,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb
+10000000-0000-0000-0000-000000000005,Max,Dog,German Shepherd,Male,5,Black & Tan,2026-01-20,Under Treatment,Vaccinated,Under Treatment,6000,Recovering from leg injury,cccccccc-cccc-cccc-cccc-cccccccccccc
+10000000-0000-0000-0000-000000000006,Daisy,Dog,Golden Retriever,Female,3,Golden,2026-05-08,Healthy,Vaccinated,Available,5500,Very friendly family dog,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+10000000-0000-0000-0000-000000000007,Charlie,Dog,Pug,Male,2,Fawn,2026-03-18,Healthy,Vaccinated,Reserved,4000,Cute pug waiting for adoption approval,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb
+10000000-0000-0000-0000-000000000008,Milo,Cat,Maine Coon,Male,4,Grey,2026-06-01,Healthy,Vaccinated,Available,3800,Large and affectionate cat,cccccccc-cccc-cccc-cccc-cccccccccccc
+10000000-0000-0000-0000-000000000009,Coco,Rabbit,Netherland Dwarf,Female,1,White,2026-06-15,Healthy,Vaccinated,Available,1500,Small rabbit suitable for families,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+10000000-0000-0000-0000-000000000010,Buddy,Dog,Indian Spitz,Male,2,White,2026-07-01,Healthy,Vaccinated,Available,2500,Active and playful dog,cccccccc-cccc-cccc-cccc-cccccccccccc

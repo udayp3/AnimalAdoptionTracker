@@ -1,0 +1,15 @@
+{
+  "requires": {
+    "auth": {
+      "kind": "mocked",
+      "users": {
+        "raj@example.com": {
+          "roles": ["Adopter"]
+        },
+        "admin@example.com": {
+          "roles": ["Admin"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Select Adopter</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#dfe6f7;
+  --dot:#c4cfe9;
+  --ink:#1b2440;
+  --tang:#ff8a4c;
+  --paper:#fffaf2;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:"Bricolage Grotesque",sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  background-image:radial-gradient(var(--dot) 2px, transparent 2.5px);
+  background-size:28px 28px;
+  padding:40px 20px;
+}
+
+.wrap{
+  max-width:1000px;
+  margin:auto;
+}
+
+.back{
+  display:inline-block;
+  margin-bottom:25px;
+  color:var(--ink);
+  text-decoration:none;
+  font-weight:700;
+}
+
+h1{
+  font-size:4rem;
+  margin:0;
+  line-height:1;
+}
+
+.subtitle{
+  margin:15px 0 40px;
+  font-size:1.1rem;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.card{
+  background:var(--paper);
+  border-radius:24px;
+  padding:24px;
+  box-shadow:0 8px 0 rgba(0,0,0,.08);
+}
+
+.card h2{
+  margin:0 0 8px;
+}
+
+.card p{
+  margin:0 0 24px;
+  opacity:.8;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  background:var(--tang);
+  color:var(--ink);
+  font-weight:800;
+  padding:12px;
+  border-radius:12px;
+  border:3px solid var(--ink);
+  cursor:pointer;
+}
+
+.btn:hover{
+  background:var(--ink);
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+    <a href="index.html" class="back">← Back to Home</a>
+
+    <h1>Select Adopter</h1>
+
+    <p class="subtitle">
+        Choose an adopter to open the adopter portal
+    </p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>Raj</h2>
+            
+            <button class="btn" onclick="openAdopter('John Doe')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Sarah Smith</h2>
+            
+            <button class="btn" onclick="openAdopter('Sarah Smith')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Michael Johnson</h2>
+            
+            <button class="btn" onclick="openAdopter('Michael Johnson')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Emma AWilson</h2>
+            
+            <button class="btn" onclick="openAdopter('Emma Wilson')">
+                Open
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function openAdopter(name){
+
+    sessionStorage.setItem("adopterName", name);
+
+    window.location.href = "adopter.html";
+}
+</script>
+
+</body>
+</html>

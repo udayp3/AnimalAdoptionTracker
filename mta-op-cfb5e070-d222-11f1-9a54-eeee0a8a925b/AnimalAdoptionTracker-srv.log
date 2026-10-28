@@ -1,0 +1,290 @@
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:15.478706] Updated app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 ({"lifecycle" => {"data" => {"buildpacks" => []}, "type" => "buildpack"}}) (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:15.587652] Updating process: "web" (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:44.947132] Uploading app package for app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:45.103784] Updated app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 ({"environment_variables" => "[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:55.645139] Stopping app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:55.711447] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 8d9c5ded-507f-4eb9-53d0-52fa (STDOUT, CELL)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:55.933941] Creating build for app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.583048] Downloading zero_trust_sidecar_buildpack_1_21... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.583053] Downloading nginx_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.583245] Downloading binary_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.583331] Downloading java_buildpack_v5_preview... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.583449] Downloading sap_java_buildpack_jakarta... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.626443] Downloaded java_buildpack_v5_preview (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:57.626497] Downloading sap_java_buildpack_jakarta_2_76... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:58.244861] Downloaded binary_buildpack (7.7M) (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:24:58.244950] Downloading sap_java_buildpack_jakarta_2_73... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:00.207245] Downloaded nginx_buildpack (65M) (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:00.207296] Downloading sap_java_buildpack_jakarta_2_72... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:00.641984] Downloaded zero_trust_sidecar_buildpack_1_21 (42.2M) (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:00.642036] Downloading zero_trust_sidecar_buildpack_1_20... (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:04.579921] Downloaded zero_trust_sidecar_buildpack_1_20 (39.7M) (STDOUT, STG)#
+#2026 10 27 16:25:04.841#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8620#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:04.580003] Downloading zero_trust_sidecar_buildpack_1_19... (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:07.609442] Downloaded zero_trust_sidecar_buildpack_1_19 (39.7M) (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:07.609516] Downloading zero_trust_sidecar_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:10.605597] Downloaded sap_java_buildpack_jakarta (408.1M) (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:10.605649] Downloading go_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:12.063696] Downloaded sap_java_buildpack_jakarta_2_76 (408.1M) (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:12.087663] Downloading staticfile_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:13.464325] Downloaded sap_java_buildpack_jakarta_2_73 (406.1M) (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:13.464383] Downloading java_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:13.701012] Downloaded zero_trust_sidecar_buildpack (42.2M) (STDOUT, STG)#
+#2026 10 27 16:25:14.895#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8626#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:13.701064] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:15.047121] Downloaded sap_java_buildpack_jakarta_2_72 (406.1M) (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:15.047192] Downloading php_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:15.953761] Downloaded staticfile_buildpack (18.4M) (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:15.953847] Downloading python_buildpack... (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:16.006073] Downloaded python_buildpack (STDOUT, STG)#
+#2026 10 27 16:25:24.944#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-9742#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:17.643058] Downloaded go_buildpack (146.3M) (STDOUT, STG)#
+#2026 10 27 16:25:35.029#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8631#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:28.574494] Downloaded nodejs_buildpack (537.2M) (STDOUT, STG)#
+#2026 10 27 16:25:35.029#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8631#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:28.766925] Creating revision for app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:25:35.029#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8631#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:28.804510] Starting app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:25:35.029#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8631#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:30.122380] Downloaded php_buildpack (489.5M) (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:38.843662] Downloaded java_buildpack (902M) (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:38.843781] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:39.741810] Security group rules were updated (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:39.782217] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:40.362999] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:40.363016] Downloading app package... (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:40.447396] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:41.375317] Downloaded app package (4.4M) (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:42.254673] -----> Nodejs Buildpack version 1.9.6 (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:42.459378] -----> Bootstrapping python (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:42.459553] -----> Installing python 3.13.17 (STDOUT, STG)#
+#2026 10 27 16:25:45.446#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8638#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:42.459768] Copy [/tmp/buildpacks/00d125328f265a57/dependencies/6ffc15ed08f7a086278d2a86f21b1fdb/python_3.13.17_linux_x64_cflinuxfs4_c9ed5e8d.tgz] (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.340016] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 6c668d25-0bc9-445b-400e-8e9a (STDOUT, CELL)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829006] -----> Installing binaries (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829190] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829208] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829301] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829334] -----> Installing node 24.22.1 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:47.829608] Copy [/tmp/buildpacks/00d125328f265a57/dependencies/81943ffafa7adf07ff6ffc6aaa402b41/node_24.22.1_linux_x64_cflinuxfs4_e062d949.tgz] (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:49.263674] Security group rules were updated (STDOUT, CELL)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:49.451322] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 6c668d25-0bc9-445b-400e-8e9a (STDOUT, CELL)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.091257] Using default npm version: 11.19.1 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.091285] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.091291] Copy [/tmp/buildpacks/00d125328f265a57/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.182178] Downloading droplet... (STDOUT, CELL)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.552185] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.552278] -----> Creating runtime environment (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554253] NODE_ENV=production (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554416] NODE_HOME=/tmp/contents3192276513/deps/0/node (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554433] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554436] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554438] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554537] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554657] -----> Building dependencies (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554676] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:51.554680] Rebuilding any native modules (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.366112] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.368315] npm notice (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.368342] npm notice New major version of npm available! 11.19.1 -> 12.2.1 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.368349] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.368353] npm notice To update run: npm install -g npm@12.2.1 (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.368358] npm notice (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:52.448444] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:53.328351] up to date in 778ms (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:53.328384] 32 packages are looking for funding (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:53.328392] run `npm fund` for details (STDOUT, STG)#
+#2026 10 27 16:25:55.445#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8647#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:25:54.215914] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:00.010949] Downloaded droplet (61.7M) (STDOUT, CELL)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:00.011432] Starting health monitoring of container (STDOUT, CELL)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:00.208629] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:00.592111] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:01.205923] > AnimalAdoptionTracker@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:01.205983] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:01.678024] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:01.676Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"loaded model from 1 file(s):\n ","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:01.678609] srv/csn.json (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.105599] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.104Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"connect to db > hana {\n  database_id: '19701289-f673-45bc-9453-128e703b3fcc',\n  host: '19701289-f673-45bc-9453-128e703b3fcc.hna0.prod-us10.hanacloud.ondemand.com',\n  port: '443',\n  driver: 'com.sap.db.jdbc.Driver',\n  url: 'jdbc:sap://19701289-f673-45bc-9453-128e703b3fcc.hna0.prod-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=D5A632334470447CB96C5637CB5F224E',\n  schema: 'D5A632334470447CB96C5637CB5F224E',\n  certificate: '...',\n  hdi_user: 'D5A632334470447CB96C5637CB5F224E_9TCT05JKTC5CAS009MLBHB6Y6_DT',\n  hdi_password: '...',\n  user: 'D5A632334470447CB96C5637CB5F224E_9TCT05JKTC5CAS009MLBHB6Y6_RT',\n  password: '...'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.150946] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.150Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"using auth strategy { kind: 'xsuaa' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.211238] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.210Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"serving AdminService {\n  at: [ '/odata/v4/admin' ],\n  decl: 'srv/csn.json:699',\n  impl: 'srv/admin-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.212374] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.211Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"serving UserService {\n  at: [ '/odata/v4/user' ],\n  decl: 'srv/csn.json:2849',\n  impl: 'srv/user-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.215880] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.215Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"server listening on { url: 'http://localhost:8080' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.217579] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:02.217Z","layer":"cds","component_type":"application","container_id":"10.32.1.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"server v9.9.4 launched in 997 ms","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:02.873240] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 8d9c5ded-507f-4eb9-53d0-52fa (STDOUT, CELL)#
+#2026 10 27 16:26:05.529#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8623#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:03.427038] Exit status 137 (STDOUT, PROXY)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:05.472377] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 8d9c5ded-507f-4eb9-53d0-52fa (STDOUT, CELL)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:05.908017] Container became healthy (STDOUT, CELL)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:05.922535] Process became ready with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 payload: {"instance" => "6c668d25-0bc9-445b-400e-8e9a", "index" => 0, "cell_id" => "684caff8-89cd-492b-be01-b3d0835f1763", "ready" => true, "version" => "645932c2-1eb7-44e6-8103-b75700e4608f"} (STDOUT, API)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:06.792309] Exit status 0 (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:06.792361] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:06.792406] Uploading droplet... (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:06.792561] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:06.828124] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:07.650819] Creating droplet for app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:09.723316] Uploaded droplet (61.7M) (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:09.754266] Uploading complete (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:11.620450] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:11.620494] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, STG)#
+#2026 10 27 16:26:15.566#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8655#
+[PollStageAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:11.660412] Staging complete for build 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, API)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:15.610757] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 9440e897-eb78-4136-9adc-3bde35a72dcc (STDOUT, STG)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:15.641337] Updated app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 ({droplet_guid: "96d6505e-aa21-4ff7-910e-f206c7ccd8f1"}) (STDOUT, API)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:15.900052] Stopping app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:15.951046] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 6c668d25-0bc9-445b-400e-8e9a (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:16.043754] Creating revision for app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:16.091811] Starting app with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 (STDOUT, API)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:16.330090] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 35234fd8-578c-44d9-509a-05fa (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:16.622409] Security group rules were updated (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:16.640262] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 35234fd8-578c-44d9-509a-05fa (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:17.170714] Downloading droplet... (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.259774] Downloaded droplet (61.7M) (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.260011] Starting health monitoring of container (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.325102] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.486945] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.798044] > AnimalAdoptionTracker@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:20.798067] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.027236] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.026Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"loaded model from 1 file(s):\n ","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.027590] srv/csn.json (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.221256] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.220Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"connect to db > hana {\n  database_id: '19701289-f673-45bc-9453-128e703b3fcc',\n  host: '19701289-f673-45bc-9453-128e703b3fcc.hna0.prod-us10.hanacloud.ondemand.com',\n  port: '443',\n  driver: 'com.sap.db.jdbc.Driver',\n  url: 'jdbc:sap://19701289-f673-45bc-9453-128e703b3fcc.hna0.prod-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=D5A632334470447CB96C5637CB5F224E',\n  schema: 'D5A632334470447CB96C5637CB5F224E',\n  certificate: '...',\n  hdi_user: 'D5A632334470447CB96C5637CB5F224E_9TCT05JKTC5CAS009MLBHB6Y6_DT',\n  hdi_password: '...',\n  user: 'D5A632334470447CB96C5637CB5F224E_9TCT05JKTC5CAS009MLBHB6Y6_RT',\n  password: '...'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.243479] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.243Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"using auth strategy { kind: 'xsuaa' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.278626] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.278Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"serving AdminService {\n  at: [ '/odata/v4/admin' ],\n  decl: 'srv/csn.json:699',\n  impl: 'srv/admin-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.279311] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.279Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"serving UserService {\n  at: [ '/odata/v4/user' ],\n  decl: 'srv/csn.json:2849',\n  impl: 'srv/user-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.281464] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.281Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"server listening on { url: 'http://localhost:8080' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:21.282422] {"level":"info","logger":"cds","timestamp":"2026-10-27T16:26:21.282Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"46bf18f4-d1dc-45ec-a6e5-2ba787b76755","component_name":"AnimalAdoptionTracker-srv","component_instance":0,"source_instance":0,"organization_name":"e88d1b1dtrial","organization_id":"7cddca30-bcb5-4e6d-b70f-11e54485bf1a","space_name":"dev","space_id":"54263c0e-813d-4d05-b51b-12a58ce8dec1","msg":"server v9.9.4 launched in 475 ms","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:23.481789] Container became healthy (STDOUT, CELL)#
+#2026 10 27 16:26:25.891#Z#DEBUG#cfb5e070-d222-11f1-9a54-eeee0a8a925b.AnimalAdoptionTracker-srv#flowable-async-job-executor-thread-8657#
+[PollStartAppStatusExecution] 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 [2026-10-27T16:26:23.496658] Process became ready with guid 46bf18f4-d1dc-45ec-a6e5-2ba787b76755 payload: {"instance" => "35234fd8-578c-44d9-509a-05fa", "index" => 0, "cell_id" => "77283d80-dfa7-40ba-ba4e-265aef112085", "ready" => true, "version" => "cfbb208a-82ca-47c6-b8eb-21c160240ad7"} (STDOUT, API)#

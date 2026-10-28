@@ -1,0 +1,14 @@
+http://localhost:4004/odata/v4/user/$metadata
+
+####
+https://e88d1b1dtrial-dev-animaladoptiontracker-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/user/$metadata
+
+#####
+https://e88d1b1dtrial-dev-animaladoptiontracker-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/user/
+
+###
+http://localhost:4004/adminusers.admin.adminusers/index.html
+
+
+###
+http://localhost:4004/odata/v4/admin/AdoptionApplications

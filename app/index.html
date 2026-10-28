@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animal Adoption Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#dfe6f7; --dot:#c4cfe9; --ink:#1b2440;
+  --tang:#ff8a4c; --indigo:#26324f; --mint:#9be3c6; --paper:#fffaf2;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; color:var(--ink);
+  font-family:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;
+  background:var(--bg);
+  background-image:radial-gradient(var(--dot) 2px, transparent 2.5px);
+  background-size:28px 28px;
+  padding:48px 20px 64px; overflow-x:hidden;
+}
+.wrap{max-width:980px;margin:0 auto}
+
+.intro{max-width:620px}
+h1{
+  margin:0; font-weight:800; letter-spacing:-.04em; line-height:.95;
+  font-size:clamp(2.6rem,8vw,5.2rem);
+}
+.intro p{margin:18px 0 0;font-size:1.15rem;line-height:1.5;max-width:44ch}
+
+/* hanging rail */
+.board{position:relative;margin-top:56px;padding-top:6px}
+.rail{
+  position:absolute;left:0;right:0;top:0;height:14px;border-radius:7px;
+  background:var(--ink);
+}
+.rail::before,.rail::after{
+  content:"";position:absolute;top:3px;width:8px;height:8px;border-radius:50%;background:var(--bg);
+}
+.rail::before{left:14px}.rail::after{right:14px}
+
+.tags{display:flex;justify-content:center;gap:56px;flex-wrap:wrap}
+
+.hang{
+  position:relative;width:300px;padding-top:0;
+  transform-origin:50% 0;
+  transform:rotate(var(--tilt));
+  animation:swing 2.2s ease-out 1 both;
+}
+.hang:nth-child(2){animation-delay:.15s}
+@keyframes swing{
+  0%{transform:rotate(calc(var(--tilt) + 9deg))}
+  25%{transform:rotate(calc(var(--tilt) - 6deg))}
+  50%{transform:rotate(calc(var(--tilt) + 3deg))}
+  75%{transform:rotate(calc(var(--tilt) - 1.2deg))}
+  100%{transform:rotate(var(--tilt))}
+}
+.cord{position:absolute;left:50%;top:14px;width:4px;height:76px;margin-left:-2px;background:var(--ink);z-index:2;border-radius:2px}
+
+.tag{
+  position:relative;margin-top:60px;border-radius:34px 34px 26px 26px;
+  padding:86px 30px 30px;min-height:380px;display:flex;flex-direction:column;
+  box-shadow:0 14px 0 rgba(27,36,64,.12);
+}
+.tag::before{ /* hole */
+  content:"";position:absolute;top:18px;left:50%;width:30px;height:30px;margin-left:-15px;
+  border-radius:50%;background:var(--bg);box-shadow:inset 0 0 0 4px rgba(0,0,0,.18);
+}
+.tag::after{ /* stitching */
+  content:"";position:absolute;inset:12px;border-radius:24px 24px 16px 16px;
+  border:2px dashed currentColor;opacity:.35;pointer-events:none;
+}
+.adopt{background:var(--tang);color:var(--ink);--tilt:-2.5deg}
+.admin{background:var(--indigo);color:var(--paper);--tilt:2deg}
+.hang:nth-child(1){--tilt:-2.5deg}
+.hang:nth-child(2){--tilt:2deg}
+
+.tag h2{margin:0 0 10px;font-size:2rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.tag p{margin:0 0 20px;line-height:1.45}
+.tag ul{margin:0 0 auto;padding:0;list-style:none;display:grid;gap:8px}
+.tag li{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem}
+.tag li svg{width:16px;height:16px;flex-shrink:0;fill:currentColor}
+
+.btn{
+  margin-top:28px;display:block;text-align:center;text-decoration:none;
+  font:inherit;font-weight:800;padding:14px 18px;border-radius:14px;
+  border:3px solid currentColor;color:inherit;position:relative;
+  transition:transform .15s ease, background .15s ease, color .15s ease;
+}
+.adopt .btn:hover{background:var(--ink);color:var(--tang);border-color:var(--ink)}
+.admin .btn:hover{background:var(--mint);color:var(--indigo);border-color:var(--mint)}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.admin .btn:focus-visible{outline-color:var(--mint)}
+
+@media (max-width:700px){
+  .tags{gap:24px}
+  .hang{width:100%;max-width:340px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hang{animation:none}
+  .btn{transition:none}.btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <section class="intro">
+    <h1>Animal Adoption Tracker</h1>
+    <p>Every animal gets a tag. Pick yours to find a home for them or to keep the shelter running.</p>
+  </section>
+
+  <section class="board" aria-label="Choose a portal">
+    <div class="rail" aria-hidden="true"></div>
+    <div class="tags">
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag adopt">
+          <h2>Adopter Portal</h2>
+          <p>Meet the animals waiting for a family and follow your application.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/></svg>Browse animals</li>
+            <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/></svg>Apply for adoption</li>
+            <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/></svg>View your profile</li>
+          </ul>
+          <a class="btn" href="adopter-list.html">Open Adopter Portal</a>
+        </article>
+      </div>
+
+      <div class="hang">
+        <div class="cord" aria-hidden="true"></div>
+        <article class="tag admin">
+          <h2>Admin Portal</h2>
+          <p>Manage every animal from intake to the day they go home.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>Animals</li>
+            <li><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>Applications</li>
+            <li><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>Adoptions</li>
+            <li><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>Health records</li>
+          </ul>
+          <a class="btn" href="admin-list.html">Open Admin Portal</a>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

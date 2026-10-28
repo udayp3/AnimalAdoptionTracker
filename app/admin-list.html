@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Select Admin</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+:root{
+  --bg:#dfe6f7;
+  --dot:#c4cfe9;
+  --ink:#1b2440;
+  --indigo:#26324f;
+  --paper:#fffaf2;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  font-family:"Segoe UI",sans-serif;
+  background:var(--bg);
+  background-image:radial-gradient(var(--dot) 2px, transparent 2.5px);
+  background-size:28px 28px;
+  color:var(--ink);
+  padding:40px 20px;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+}
+
+.back{
+  display:inline-block;
+  margin-bottom:25px;
+  color:var(--ink);
+  text-decoration:none;
+  font-weight:700;
+}
+
+h1{
+  font-size:4rem;
+  margin:0;
+}
+
+.subtitle{
+  margin:15px 0 40px;
+  font-size:1.1rem;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.card{
+  background:var(--paper);
+  border-radius:24px;
+  padding:24px;
+  box-shadow:0 8px 0 rgba(0,0,0,.1);
+}
+
+.card h2{
+  margin:0 0 10px;
+}
+
+.card p{
+  margin:0 0 20px;
+}
+
+.btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:12px;
+  background:var(--indigo);
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.btn:hover{
+  opacity:0.9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="index.html" class="back">← Back to Home</a>
+
+    <h1>Select Admin</h1>
+
+    <p class="subtitle">
+        Choose an administrator to open the Admin Portal
+    </p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>Prashanth</h2>
+            <p>Admin ID: ADM001</p>
+            <button class="btn" onclick="openAdmin('Prashanth')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Swapnil</h2>
+            <p>Admin ID: ADM002</p>
+            <button class="btn" onclick="openAdmin('Swapnil')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Admin User 1</h2>
+            <p>Admin ID: ADM003</p>
+            <button class="btn" onclick="openAdmin('Admin User 1')">
+                Open
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Admin User 2</h2>
+            <p>Admin ID: ADM004</p>
+            <button class="btn" onclick="openAdmin('Admin User 2')">
+                Open
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function openAdmin(adminName) {
+    sessionStorage.setItem("adminName", adminName);
+    window.location.href = "admin.html";
+}
+</script>
+
+</body>
+</html>

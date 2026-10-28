@@ -1,0 +1,278 @@
+_schema-version: "3.3.0"
+ID: AnimalAdoptionTracker
+version: 1.0.0
+description: Animal Adoption Tracker
+
+parameters:
+  enable-parallel-deployments: true
+  deploy_mode: html5-repo
+
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production
+
+modules:
+  - name: AnimalAdoptionTracker-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      memory: 1024M
+      disk-quota: 1024M
+      instances: 1
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: AnimalAdoptionTracker-db
+      - name: AnimalAdoptionTracker-auth
+      - name: AnimalAdoptionTracker-destination
+
+  - name: AnimalAdoptionTracker-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: AnimalAdoptionTracker-db
+
+  - name: AnimalAdoptionTracker-approuter
+    type: approuter.nodejs
+    path: approuter
+    parameters:
+      memory: 256M
+      disk-quota: 256M
+      instances: 1
+    requires:
+      - name: AnimalAdoptionTracker-auth
+      - name: AnimalAdoptionTracker-html5-runtime
+      - name: srv-api
+        group: destinations
+        properties:
+          name: srv-api
+          url: ~{srv-url}
+          forwardAuthToken: true
+
+  - name: AnimalAdoptionTracker-app-deployer
+    type: com.sap.application.content
+    path: gen
+    requires:
+      - name: AnimalAdoptionTracker-html5-repo-host
+        parameters:
+          content-target: true
+    build-parameters:
+      build-result: app-content
+      requires:
+        - name: adminanimals
+          artifacts:
+            - adminanimals.zip
+          target-path: app-content/
+        - name: adminshelters
+          artifacts:
+            - adminshelters.zip
+          target-path: app-content/
+        - name: adminhealth
+          artifacts:
+            - adminhealth.zip
+          target-path: app-content/
+        - name: adminapplications
+          artifacts:
+            - adminapplications.zip
+          target-path: app-content/
+        - name: adminadoptions
+          artifacts:
+            - adminadoptions.zip
+          target-path: app-content/
+        - name: admininspections
+          artifacts:
+            - admininspections.zip
+          target-path: app-content/
+        - name: adminusers
+          artifacts:
+            - adminusers.zip
+          target-path: app-content/
+        - name: animalbrowser
+          artifacts:
+            - animalbrowser.zip
+          target-path: app-content/
+        - name: myapplications
+          artifacts:
+            - myapplications.zip
+          target-path: app-content/
+        - name: myadoptions
+          artifacts:
+            - myadoptions.zip
+          target-path: app-content/
+        - name: myprofile
+          artifacts:
+            - myprofile.zip
+          target-path: app-content/
+
+  - name: adminanimals
+    type: html5
+    path: app/adminanimals
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminanimals.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: adminshelters
+    type: html5
+    path: app/adminshelters
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminshelters.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: adminhealth
+    type: html5
+    path: app/adminhealth
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminhealth.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: adminapplications
+    type: html5
+    path: app/adminapplications
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminapplications.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: adminadoptions
+    type: html5
+    path: app/adminadoptions
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminadoptions.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: admininspections
+    type: html5
+    path: app/admininspections
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../admininspections.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: adminusers
+    type: html5
+    path: app/adminusers
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../adminusers.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: animalbrowser
+    type: html5
+    path: app/animalbrowser
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../animalbrowser.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: myapplications
+    type: html5
+    path: app/myapplications
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../myapplications.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: myadoptions
+    type: html5
+    path: app/myadoptions
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../myadoptions.zip ."
+      build-result: .
+      supported-platforms: []
+
+  - name: myprofile
+    type: html5
+    path: app/myprofile
+    build-parameters:
+      builder: custom
+      commands:
+        - npm ci
+        - npx ui5 build --clean-dest
+        - sh -c "cd dist && zip -qr ../myprofile.zip ."
+      build-result: .
+      supported-platforms: []
+
+resources:
+  - name: AnimalAdoptionTracker-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
+  - name: AnimalAdoptionTracker-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+
+  - name: AnimalAdoptionTracker-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+
+  - name: AnimalAdoptionTracker-html5-repo-host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-host
+      service-name: AnimalAdoptionTracker-html5-repo-host
+
+  - name: AnimalAdoptionTracker-html5-runtime
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-runtime
+      service-name: AnimalAdoptionTracker-html5-runtime
